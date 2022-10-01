@@ -1,5 +1,7 @@
 # useContext
 
+[Go back to root README](/README.md)
+
 [Reference: React useContext](https://reactjs.org/docs/hooks-reference.html#usecontext)
 
 Purpose: App that can change the theme based on the context value
@@ -109,3 +111,5 @@ Purpose: App that can change the theme based on the context value
      );
    };
    ```
+
+[Go back to root README](/README.md)
