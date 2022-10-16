@@ -12,6 +12,7 @@
 - [useMemo](./NOTES/useMemo/README.md)
 - [useRef](./NOTES/useRef/README.md)
 - [useContext](./NOTES/useContext/README.md)
+- [useReducer](./NOTES/useReducer/README.md)
 
 ## Reference
 
