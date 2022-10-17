@@ -19,6 +19,7 @@ const pages: LinkPropsType[] = [
   { url: "/useState", content: "useState" },
   { url: "/useEffect", content: "useEffect" },
   { url: "/useMemo", content: "useMemo" },
+  { url: "/useCallback", content: "useCallback" },
   { url: "/useRef", content: "useRef" },
   { url: "/useContext", content: "useContext" },
   { url: "/useReducer", content: "useReducer" },

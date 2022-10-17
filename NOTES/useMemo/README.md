@@ -12,18 +12,28 @@ Purpose used in
 syntax
 
 ```typescript
+// Improve performence
 import { useState, useEffect, useMemo } from "react";
 
 const [number, setNumber] = useState<number>(0);
 // Only execute slowFunction while number is changed
 const value = useMemo(() => slowFunction(number), [number]);
+```
 
-const [isDark, setIsDark] = useState<boolean>(false);
+```typescript
 // Compare object
-const themeStyles = useMemo(() => ({
-  backgroundColor: isDark ? "black" : "white",
-  color: isDark ? "white" : "black",
-}));
+const [isDark, setIsDark] = useState<boolean>(false);
+const themeStyles = useMemo(
+  () => ({
+    backgroundColor: isDark ? "black" : "white",
+    color: isDark ? "white" : "black",
+  }),
+  [isDark]
+);
+// Only render while `themeStyles` actually change
+useEffect(() => {
+  console.log("Theme changed");
+}, [themeStyles]);
 ```
 
 NOTE: Don't use useMemo everywhere, because it does give you some performance overhaed and some memory overhead
