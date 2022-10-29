@@ -10,9 +10,12 @@
 - [useState](./NOTES/useState/README.md)
 - [useEffect](./NOTES/useEffect/README.md)
 - [useMemo](./NOTES/useMemo/README.md)
+- [useCallback](./NOTES/useCallback/README.md)
 - [useRef](./NOTES/useRef/README.md)
 - [useContext](./NOTES/useContext/README.md)
 - [useReducer](./NOTES/useReducer/README.md)
+- [useTransition](./NOTES/useTransition/READMD.md)
+- [useDefferedValue](./NOTES/useDefferedValue/README.md)
 
 ## Reference
 

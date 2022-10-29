@@ -23,6 +23,8 @@ const pages: LinkPropsType[] = [
   { url: "/useRef", content: "useRef" },
   { url: "/useContext", content: "useContext" },
   { url: "/useReducer", content: "useReducer" },
+  { url: "/useTransition", content: "useTransition" },
+  { url: "/useDefferedValue", content: "useDefferedValue" },
 ];
 
 const Home: NextPage = () => {
