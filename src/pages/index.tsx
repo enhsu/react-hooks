@@ -25,6 +25,7 @@ const pages: LinkPropsType[] = [
   { url: "/useReducer", content: "useReducer" },
   { url: "/useTransition", content: "useTransition" },
   { url: "/useDefferedValue", content: "useDefferedValue" },
+  { url: "/useImperativeHandle", content: "useImperativeHandle" },
 ];
 
 const Home: NextPage = () => {
